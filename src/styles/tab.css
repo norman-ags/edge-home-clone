@@ -1,0 +1,105 @@
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0cm;
+  color: #979797;
+  font-size: 14px;
+}
+li {
+  margin-right: 15px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+li.active {
+  border-bottom: 1px solid #2196f3;
+  border-bottom-width: 2px;
+  border-bottom-left-radius: 1px;
+  border-bottom-right-radius: 1px;
+  color: white;
+}
+
+/* Content, should not be in Tab css */
+.main {
+  background-color: #242424;
+  padding: 25px 20px 15px;
+}
+.contents {
+  padding: 10px;
+  max-width: 950px;
+}
+img {
+  background-color: white;
+  border-radius: 3px;
+  display: block;
+}
+.col-2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 1em;
+}
+.col-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.8em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  width: 100%;
+}
+a:hover {
+  text-decoration: underline;
+}
+.content {
+  overflow: hidden;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 1px 0px 1px 1px rgb(21 21 21 / 50%);
+}
+.content-bottom {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  padding: 5px 20px;
+  background-color: #424242;
+  height: 150px;
+}
+.content-bottom > * {
+  padding: 5px 0;
+}
+.content-provider {
+  display: grid;
+  grid-template-columns: 190px 80px;
+  position: absolute;
+  bottom: 0px;
+  margin: 7px 0px;
+}
+.content-provider div small {
+  margin-left: 5px;
+}
+.content-provider > * {
+  display: flex;
+}
+.content-provider div:last-child {
+  justify-content: space-evenly;
+}
+.preview {
+  width: 100%;
+}
+.upper {
+  text-transform: uppercase;
+}
+.bold {
+  font-weight: 500;
+}
+small {
+  color: #979797;
+}
+small.x2 {
+  font-size: small;
+}
+small {
+  font-size: x-small;
+}

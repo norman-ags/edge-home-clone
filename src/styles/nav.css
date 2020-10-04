@@ -1,0 +1,84 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4wyTs?ver=59ec");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+nav:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+.r1 {
+  width: 35px;
+  height: 5px;
+  margin: 6px 0;
+}
+input {
+  border-radius: 3px;
+  border: 0;
+  background-color: #464646;
+  height: 41px;
+  width: 53vw;
+  text-indent: 10px;
+  color: white;
+}
+input::placeholder {
+  color: #9b9b9b;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.search {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.microsoft-icon {
+  right: 65px;
+  position: absolute;
+}
+.search-icon {
+  right: 20px;
+  position: absolute;
+}
+input:focus {
+  outline: none;
+}
+div.links {
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  position: relative;
+  padding-bottom: 40px;
+  width: 100%;
+  font-size: 13px;
+}
+.links div:last-child {
+  right: 64px;
+  position: absolute;
+}
+.links div:first-child {
+  right: 232px;
+  position: absolute;
+}
+.transparent-circle {
+  height: 30px;
+  width: 30px;
+  background-color: #000;
+  border-radius: 50%;
+  opacity: 0.6;
+  margin-left: 10px;
+}
+.center {
+  display: grid;
+  place-items: center;
+}
